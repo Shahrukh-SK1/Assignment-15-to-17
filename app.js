@@ -23,3 +23,11 @@ var booleanArray = [true, false];
 // Answer No. 6 (Mix Array)
 
 var mixArray = ["Shahrukh", 1, true, "Rayyan", true, 2,];
+
+// Answer No. 7 ()
+
+var qualifications = ["SSC", " HSC", " BCS", " BS", " BCOM", " MS", " M. Phil.", " PhD"];
+
+document.write("<h2>" + "Qualifications" + "</h2>" + "<br>");
+document.write(qualifications);
+
