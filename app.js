@@ -97,3 +97,21 @@ var selectedCities = citiesName.slice(2, 5);
 
 document.write("<b>Selected Cities: </b>" + selectedCities);
 
+document.write("<br>");
+document.write("<br>");
+
+// Answer No. 12 ()
+
+var arr = ["This ", " is ", " my ", " cat"];
+
+document.write("<b>Array: </b>" + arr + "<br>");
+
+var singleString = arr.join("");
+
+document.write("<b>String: </b>" + singleString);
+
+
+document.write("<br>");
+document.write("<br>");
+
+// Answer No. 13 ()
