@@ -114,4 +114,69 @@ document.write("<b>String: </b>" + singleString);
 document.write("<br>");
 document.write("<br>");
 
-// Answer No. 13 ()
+// Answer No. 13 (First In First Out)
+
+document.write("<b> First In First Out </b>");
+
+var devices = [];
+
+devices.push("Keyboard");
+devices.push("Mouse");
+devices.push("Printer");
+devices.push("Monitor");
+devices.push("CPU");
+
+document.write("<br>Devices: </br>" + devices);
+
+document.write("<br>");
+document.write("<br>");
+
+
+
+document.write("Out: " + devices.shift() + "<br>");
+document.write("Out: " + devices.shift() + "<br>");
+document.write("Out: " + devices.shift() + "<br>");
+document.write("Out: " + devices.shift() + "<br>");
+document.write("Out: " + devices.shift() + "<br>");
+
+document.write("<br>");
+document.write("<br>");
+
+
+// Answer No. 14 (First In First Out)
+
+document.write("<b> Last In First Out </b>");
+
+devices.push("Keyboard");
+devices.push("Mouse");
+devices.push("Printer");
+devices.push("Monitor");
+devices.push("CPU");
+
+document.write("<br>Devices: </br>" + devices);
+
+document.write("<br>");
+document.write("<br>");
+
+document.write("Out: " + devices.pop() + "<br>");
+document.write("Out: " + devices.pop() + "<br>");
+document.write("Out: " + devices.pop() + "<br>");
+document.write("Out: " + devices.pop() + "<br>");
+document.write("Out: " + devices.pop() + "<br>");
+
+document.write("<br>");
+document.write("<br>");
+
+// Answer No. 15 (Phone Array Drop/Down)
+
+var phone = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
+
+console.log(phone);
+
+document.write("<select>");
+
+for (var i = 0; i < phone.length; i++ ){
+    document.write("<option>" + phone[i] + "</option>");
+}
+
+document.write("</select>");
